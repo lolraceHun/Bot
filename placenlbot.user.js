@@ -119,8 +119,14 @@ function updateOrders() {
 				duration: 10000
 			}).showToast();
 		}
+		
+		// Ensure orders are executed in a random order
+		const shuffled = data
+		  .map(value => ({ value, sort: Math.random() }))
+		  .sort((a, b) => a.sort - b.sort)
+		  .map(({ value }) => value);
 
-		placeOrders = data;
+		placeOrders = shuffled;
 	}).catch((e) => console.warn('Unable to pick up orders!', e));
 }
 
