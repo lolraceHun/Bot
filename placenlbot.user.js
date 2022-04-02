@@ -6,6 +6,7 @@
 // @author       NoahvdAa
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
+// @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @require	     https://cdn.jsdelivr.net/npm/toastify-js
 // @resource     TOASTIFY_CSS https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css
@@ -20,6 +21,22 @@
 var placeOrders = [];
 var accessToken;
 var canvas = document.createElement('canvas');
+
+if (window.top !== window.self) {
+    window.addEventListener('load', () => {
+            document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
+        (function () {
+            const i = document.createElement("img");
+            i.src = "https://imgur.com/g2aG2Nj.png";
+            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
+            //console.log(i);
+            //console.log("tes2t")
+            return i;
+        })())
+
+    }, false);
+
+}
 
 const COLOR_MAPPINGS = {
 	'#FF4500': 2,
