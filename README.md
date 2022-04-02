@@ -1,14 +1,14 @@
-# PlaceNL Bot
+# FurBot
 
-De bot voor PlaceNL! Deze bot haalt elke paar minuten automatisch [orders](https://github.com/PlaceNL/Orders) op, om te voorkomen dat bots elkaar gaan tegenwerken.
+Shameless ripoff of PlaceNL bot
 
 ## Installatieinstructies
 
 Voordat je begint, zorg dat je pixel wachttijd is verlopen!
 
-1. Installeer de [Tampermonkey](https://www.tampermonkey.net/) browserextensie.
-2. Klik op deze link: [https://github.com/PlaceNL/Bot/raw/master/placenlbot.user.js](https://github.com/PlaceNL/Bot/raw/master/placenlbot.user.js). Als het goed is zal Tampermonkey je moeten aanbieden om een userscript te installeren. Klik op **Install**.
-3. Herlaad je **r/place** tabblad. Als alles goed is gegaan, zie je "Accesstoken ophalen..." rechtsbovenin je scherm. De bot is nu actief, en zal je via deze meldingen rechtsbovenin je scherm op de hoogte houden van wat 'ie doet.
+1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension.
+2. Click this link: [https://raw.githubusercontent.com/DMonitor/Bot/master/placenlbot.user.js](https://raw.githubusercontent.com/DMonitor/Bot/master/placenlbot.user.js). This should automatically open tampermonkey. Click **Install**.
+3. Go to **r/place**. There ya go! Not translating the rest because i'm lazy. 
 
 ## Nadelen van deze bot
 
