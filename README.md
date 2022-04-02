@@ -1,16 +1,13 @@
+# ÒwÓ
+
+- [Discord] (https://discord.gg/furry-irl)
+- [Reddit] (https://www.reddit.com/r/furry_irl/)
+
+![](https://images-ext-1.discordapp.net/external/h3DW9dgdA-nZrQX9RW8nYMkJOmYF_g78TRtR6mFl7hw/https/i.imgur.com/XW8Gexf.png?width=416&height=478)
+=======
 # FurBot
 
 Shameless ripoff of PlaceNL bot
-
-## Installatieinstructies
-
-Voordat je begint, zorg dat je pixel wachttijd is verlopen!
-
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension.
 2. Click this link: [https://raw.githubusercontent.com/DMonitor/Bot/master/placenlbot.user.js](https://raw.githubusercontent.com/DMonitor/Bot/master/placenlbot.user.js). This should automatically open tampermonkey. Click **Install**.
 3. Go to **r/place**. There ya go! Not translating the rest because i'm lazy. 
-
-## Nadelen van deze bot
-
-- Wanneer de bot een pixel plaatst, ziet het er voor jezelf uit alsof je nog steeds een pixel kunt plaatsen, terwijl de bot dit al voor je heeft gedaan (en je dus in de 5 minuten cooldown zit).
-- De bot gaat houdt nog geen rekening met een bestaande cooldown, en gaat er dus van uit dat wanneer je **r/place** opent je meteen een pixel kunt plaatsen. Het kan hierdoor dat je eerste pixel in het ergste geval 4 minuten en 59 seconden tijd verspilt.
