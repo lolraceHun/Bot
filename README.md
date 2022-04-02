@@ -1,7 +1,7 @@
 # Ria Ria Hungaria 
 
-- [Discord] (https://discord.gg/xqyQD5z)
-- [Reddit] (https://www.reddit.com/r/hungary/)
+- [Discord](https://discord.gg/xqyQD5z)
+- [Reddit](https://www.reddit.com/r/hungary/)
 
 ![]
 =======
