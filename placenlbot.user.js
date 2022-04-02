@@ -109,7 +109,7 @@ async function attemptPlace() {
 
 function updateOrders() {
     console.warn("updating orders");
-	fetch('https://github.com/DMonitor/Bot/raw/master/orders.json').then(async (response) => {
+	fetch('https://raw.githubusercontent.com/DMonitor/Bot/master/orders.json').then(async (response) => {
 		if (!response.ok) return console.warn('Unable to pick up orders! (non-ok status code)');
 		const data = await response.json();
 
